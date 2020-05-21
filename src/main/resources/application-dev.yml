@@ -1,0 +1,22 @@
+swagger:
+  enabled: true #是否开启swagger 默认true
+  base-package: com.itmck.web
+  contact:
+    name: miaochangke
+    email: 17355805355@163.com
+    url:
+  title: swagger测试项目标题
+  description: 文档描述
+  ui-config:
+    json-editor: true #启用json编辑器
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  security:
+    user:
+      name: mck
+      password: 123
+
