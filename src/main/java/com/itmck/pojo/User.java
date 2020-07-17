@@ -15,7 +15,7 @@ import lombok.Data;
 @Data
 @TableName(value = "user")
 public class User {
-    @TableId(value = "id",type = IdType.AUTO)
+    @TableId(value = "id",type = IdType.ID_WORKER)
     private Long id;
     private String name;
     private Integer age;

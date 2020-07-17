@@ -27,7 +27,7 @@ public class CglibProxy {
         //Enhancer类是CGLib中的一个字节码增强器
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(CGsubject.class);//将被代理类设置成父类
-        //设置拦截器
+        //设置方法拦截器
         enhancer.setCallback(new MethodInterceptor() {
             /**
              *
